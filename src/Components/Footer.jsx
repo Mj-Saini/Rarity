@@ -8,7 +8,7 @@ function Footer() {
       <section className=" bg_black_1c py-5">
         <div className="container">
           <div className="row justify-content-center align-items-center">
-            <div className="col-lg-8">
+            <div className="col-xxl-5 col-lg-8">
               <ul className="d-flex justify-content-between ps-0">
                 <li>
                   <a

@@ -96,9 +96,10 @@ function Rarity() {
                         {cards.head}{" "}
                         <span className="d-block">{cards.span}</span>
                       </h2>
-                      <span className="random_btn py-1 px-4 mt-3 mb-5">
+                      <span className="my-4 position-relative boxoverdown ">
+                        <span className="box_shadow position-absolute h-100 w-100 d-block z_index0"></span>
                         <a
-                          className=" ff_source_pro fw-bolder fs_23 text-center text_black_2d"
+                          className="random_btn py-1 px-4 mt-3 mb-5 ff_source_pro fw-bolder fs_23 text-center text_black_2d"
                           href="#"
                         >
                           {cards.num}

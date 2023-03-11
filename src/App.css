@@ -25,7 +25,7 @@ label {
   flex-direction: column;
   width: 35px;
   cursor: pointer;
-  z-index: 123 !important;
+  z-index: 11 !important;
   position: relative;
 }
 
@@ -40,19 +40,6 @@ label span {
 label span:nth-child(2) {
   margin-bottom: 5px;
 }
-
-/* .span_nav1 {
-  width: 50%;
-}
-
-.span_nav2 {
-  width: 100%;
-  margin-right: auto;
-}
-
-.span_nav3 {
-  width: 75%;
-} */
 .span_nav11 {
   width: 70%;
 }
@@ -61,18 +48,15 @@ label span:nth-child(2) {
 }
 .span_nav00 {
   width: 25%;
-  /* margin-right: auto; */
 }
 .span_nav01 {
   width: 70%;
-  /* margin-right: auto; */
 }
 .menu {
   display: none;
 }
 
 .nav-fix {
-  /* min-width: 100vh;/ */
   height: 110vh;
   top: 0px;
   left: 0;
@@ -87,7 +71,6 @@ label span:nth-child(2) {
   z-index: 9;
 }
 .fix-navbar {
-  /* min-width: 100vh;/ */
   height: 110vh;
   top: 0px;
   left: -250%;
@@ -338,10 +321,7 @@ h3 {
 .team_gradient::after {
   content: "";
   position: absolute;
-  /* top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%; */
+
   inset: 0;
   background: linear-gradient(
     138.47deg,
@@ -424,13 +404,31 @@ h3 {
     #f72bee 100%
   );
 }
+.box_shadow {
+  background: rgba(255, 255, 255, 0.16);
+  left: 0;
+  bottom: -10px;
+  border-radius: 7px;
+  z-index: -1 !important;
+}
+.box_shadow:hover {
+  bottom: 0px;
+}
+.boxoverdown:hover .random_btn {
+  bottom: -10px;
+}
+.boxoverdown {
+  box-shadow: 0px 5.71459px 5.71459px rgba(0, 0, 0, 0.25),
+    0px 5.71459px 34.2875px rgba(0, 0, 0, 0.25);
+}
 .random_btn {
   background: linear-gradient(
     99.34deg,
-    rgba(79, 181, 255, 0.85) 13.11%,
-    rgba(247, 43, 238, 0.85) 94.12%
+    rgba(79, 181, 255) 13.11%,
+    rgba(247, 43, 238) 94.12%
   );
   border-radius: 7px;
+  position: relative;
 }
 .random_card_bg {
   background: rgba(255, 255, 255, 0.06);
@@ -446,8 +444,7 @@ h3 {
   box-shadow: 0px 5.71459px 5.71459px rgba(0, 0, 0, 0.25),
     0px 5.71459px 34.2875px rgba(0, 0, 0, 0.25);
   backdrop-filter: blur(28.5729px);
-  /* display: flex; */
-  /* flex-shrink: 0; */
+
   content: "";
   position: absolute;
   inset: 0;
@@ -625,16 +622,16 @@ h3 {
   height: 100%;
   background-color: #12153a;
   clip-path: polygon(
-    50% 0%,
-    100% 0,
-    99% 47%,
-    83% 57%,
-    73% 88%,
-    50% 100%,
-    25% 88%,
-    19% 61%,
-    0 51%,
-    0 0
+    50% 5%,
+    73% 12%,
+    100% 6%,
+    96% 46%,
+    100% 88%,
+    50% 80%,
+    0 87%,
+    3% 46%,
+    0 6%,
+    29% 13%
   );
 }
 article:hover .overlay {
@@ -643,7 +640,7 @@ article:hover .overlay {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #12153a;
+
   opacity: 0.4;
 }
 
