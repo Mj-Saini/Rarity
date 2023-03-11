@@ -28,7 +28,7 @@ function Hero() {
                   </span>{" "}
                   aliqua.
                 </p>
-                <span className="d-flex gap-sm-5 gap-3 my-5 pt-xl-3 justify-content-center justify-content-sm-start">
+                <span className="d-flex gap-sm-5 gap-3 my-5 pt-xl-3 justify-content-center justify-content-sm-start ">
                   <a
                     className="btn_btn btn px-sm-4 py-3 text-white fw_500 ff_ubuntu text-white opacity-75 fs_32 "
                     href="#"
@@ -41,7 +41,7 @@ function Hero() {
                     Twitter
                   </a>
                   <a
-                    className="btn btn_btn ms-xl-5 px-sm-4 py-3 text-white fw_500 ff_ubuntu text-white opacity-75 fs_32 "
+                    className="btn btn_btn1 position-relative ms-xl-5 px-sm-4 py-3 text-white fw_500 ff_ubuntu text-white opacity-75 fs_32 "
                     href="#"
                   >
                     <img

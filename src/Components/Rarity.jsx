@@ -26,53 +26,59 @@ function Rarity() {
         className="rarity_sec_bg py-4 py-lg-5 overflow-hidden"
       >
         <div className="container px-lg-5">
-          <h2 className=" ff_space_mono fw-bold fs_91 tokemonies text-center">
+          <h2 className="ff_space_mono fw-bold fs_91 tokemonies text-center">
             Rarity
           </h2>
-          <article className="d-flex justify-content-between px-4 w-100 my-5 d-none d-xxl-flex">
-            <span className="">
-              <a
-                className=" ff_fira_code fw-bold fs_29 text-center rarity_component px-4 py-2 d-inline-block"
-                href="#"
-              >
-                Background
-              </a>
-            </span>
-            <span className="">
-              <a
-                className="d-inline-block ff_fira_code fw-bold fs_29 text-center rarity_component px-4 py-2"
-                href="#"
-              >
-                Skin
-              </a>
-            </span>
-            <span className="">
-              <a
-                className="d-inline-block ff_fira_code fw-bold fs_29 text-center rarity_component px-4 py-2"
-                href="#"
-              >
-                Clothes
-              </a>
-            </span>
-            <span className="">
-              <a
-                className="d-inline-block ff_fira_code fw-bold fs_29 text-center rarity_component px-4 py-2"
-                href="#"
-              >
-                Eyes
-              </a>
-            </span>
-            <span className="">
-              <a
-                className="d-inline-block ff_fira_code fw-bold fs_29 text-center rarity_component px-4 py-2"
-                href="#"
-              >
-                Hats
-              </a>
-            </span>
+          <article className="d-flex flex-column flex-xxl-row justify-content-between px-4 w-100 my-5 d-none d-lg-flex">
+            <article className="d-flex justify-content-around w_xxl_65">
+              {" "}
+              <span className="">
+                <a
+                  className=" ff_fira_code fw-bold fs_29 text-center rarity_component px-4 py-2 d-inline-block"
+                  href="#"
+                >
+                  Background
+                </a>
+              </span>
+              <span className="">
+                <a
+                  className="d-inline-block ff_fira_code fw-bold fs_29 text-center rarity_component px-4 py-2"
+                  href="#"
+                >
+                  Skin
+                </a>
+              </span>
+              <span className="">
+                <a
+                  className="d-inline-block ff_fira_code fw-bold fs_29 text-center rarity_component px-4 py-2"
+                  href="#"
+                >
+                  Clothes
+                </a>
+              </span>{" "}
+            </article>
+            <article className="d-flex justify-content-around w_xxl_40 mt-4 mt-xxl-0">
+              {" "}
+              <span className="">
+                <a
+                  className="d-inline-block ff_fira_code fw-bold fs_29 text-center rarity_component px-4 py-2"
+                  href="#"
+                >
+                  Eyes
+                </a>
+              </span>
+              <span className="">
+                <a
+                  className="d-inline-block ff_fira_code fw-bold fs_29 text-center rarity_component px-4 py-2"
+                  href="#"
+                >
+                  Hats
+                </a>
+              </span>
+            </article>
           </article>
           <label
-            className="w-100 me-2 mb-4 z_index d-flex align-items-center d-xxl-none my-5"
+            className="w-100 me-2 mb-4 z_index d-flex align-items-center d-lg-none my-5"
             htmlFor="To"
           >
             {" "}

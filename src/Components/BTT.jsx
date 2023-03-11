@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import btop from "../assets/img/svg/top.svg";
+import btop from "../assets/img/png/top.png";
 
 const BTT = () => {
   const top = () => {

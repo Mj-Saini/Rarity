@@ -10,7 +10,7 @@ function Roadmap() {
     <>
       <section className="py-5 rarity_sec_bg overflow-hidden">
         <div className=" container">
-          <div className="mx-lg-5">
+          <div className="mx-lg-5 ">
             {" "}
             <h2 className="text-center ff_space_mono fw-bold fs_91 tokemonies">
               Roadmap
@@ -21,7 +21,11 @@ function Roadmap() {
                   <h2 className="ff_ubuntu fw-bold fs_48 h1_gradient underline_roadmap position-relative  mb-5">
                     {" "}
                     <span className="oval1 ff_ubuntu fw-bold fs_48 position-absolute"></span>
-                    01 Lorem Ipsum
+                    <span className="number_gradiant ff_space_mono fw-bold fs_48">
+                      {" "}
+                      01
+                    </span>{" "}
+                    Lorem Ipsum
                   </h2>
                   <h3 className=" ff_source_pro fw-bolder fs_40 text-white">
                     Lorem Ipsum dolor sit amet
@@ -45,7 +49,11 @@ function Roadmap() {
                   <h2 className=" ff_ubuntu fw-bold fs_48 h1_gradient mb-4 underline_roadmap2 position-relative">
                     {" "}
                     <span className="oval2 position-absolute"></span>
-                    02 Lorem Ipsum
+                    Lorem Ipsum{" "}
+                    <span className="number_gradiant ff_space_mono fw-bold fs_48">
+                      {" "}
+                      02
+                    </span>
                   </h2>
                   <h3 className=" ff_source_pro fw-bolder fs_40 text-white">
                     Lorem Ipsum dolor sit amet
@@ -68,7 +76,11 @@ function Roadmap() {
                   <h2 className="ff_ubuntu fw-bold fs_48 h1_gradient underline_roadmap position-relative  mb-5">
                     {" "}
                     <span className="oval1 ff_ubuntu fw-bold fs_48 position-absolute"></span>
-                    03 Lorem Ipsum
+                    <span className="number_gradiant ff_space_mono fw-bold fs_48">
+                      {" "}
+                      03
+                    </span>
+                    Lorem Ipsum
                   </h2>
                   <h3 className=" ff_source_pro fw-bolder fs_40 text-white">
                     Lorem Ipsum dolor sit amet
@@ -92,7 +104,11 @@ function Roadmap() {
                   <h2 className=" ff_ubuntu fw-bold fs_48 h1_gradient mb-4 underline_roadmap2 position-relative">
                     {" "}
                     <span className="oval2 position-absolute"></span>
-                    04 Lorem Ipsum
+                    Lorem Ipsum
+                    <span className="number_gradiant ff_space_mono fw-bold fs_48">
+                      {" "}
+                      04
+                    </span>
                   </h2>
                   <h3 className=" ff_source_pro fw-bolder fs_40 text-white">
                     Lorem Ipsum dolor sit amet
@@ -115,7 +131,11 @@ function Roadmap() {
                   <h2 className="ff_ubuntu fw-bold fs_48 h1_gradient underline_roadmap position-relative  mb-5">
                     {" "}
                     <span className="oval1 ff_ubuntu fw-bold fs_48 position-absolute"></span>
-                    05 Lorem Ipsum
+                    <span className="number_gradiant ff_space_mono fw-bold fs_48">
+                      {" "}
+                      05
+                    </span>{" "}
+                    Lorem Ipsum
                   </h2>
                   <h3 className=" ff_source_pro fw-bolder fs_40 text-white">
                     Lorem Ipsum dolor sit amet
@@ -139,7 +159,11 @@ function Roadmap() {
                   <h2 className=" ff_ubuntu fw-bold fs_48 h1_gradient mb-4 underline_roadmap2 position-relative">
                     {" "}
                     <span className="oval2 position-absolute"></span>
-                    06 Lorem Ipsum
+                    Lorem Ipsum
+                    <span className="number_gradiant ff_space_mono fw-bold fs_48">
+                      {" "}
+                      06
+                    </span>
                   </h2>
                   <h3 className=" ff_source_pro fw-bolder fs_40 text-white">
                     Lorem Ipsum dolor sit amet
@@ -162,7 +186,11 @@ function Roadmap() {
                   <h2 className="ff_ubuntu fw-bold fs_48 h1_gradient underline_roadmap position-relative  mb-5">
                     {" "}
                     <span className="oval1 ff_ubuntu fw-bold fs_48 position-absolute"></span>
-                    07 Lorem Ipsum
+                    <span className="number_gradiant ff_space_mono fw-bold fs_48">
+                      {" "}
+                      07
+                    </span>{" "}
+                    Lorem Ipsum
                   </h2>
                   <h3 className=" ff_source_pro fw-bolder fs_40 text-white">
                     Lorem Ipsum dolor sit amet
@@ -186,7 +214,11 @@ function Roadmap() {
                   <h2 className=" ff_ubuntu fw-bold fs_48 h1_gradient mb-4 underline_roadmap2 position-relative">
                     {" "}
                     <span className="oval2 position-absolute"></span>
-                    08 Lorem Ipsum
+                    Lorem Ipsum
+                    <span className="number_gradiant ff_space_mono fw-bold fs_48">
+                      {" "}
+                      08
+                    </span>
                   </h2>
                   <h3 className=" ff_source_pro fw-bolder fs_40 text-white">
                     Lorem Ipsum dolor sit amet
@@ -209,7 +241,11 @@ function Roadmap() {
                   <h2 className="ff_ubuntu fw-bold fs_48 h1_gradient underline_roadmap position-relative  mb-5">
                     {" "}
                     <span className="oval1 ff_ubuntu fw-bold fs_48 position-absolute"></span>
-                    09 Lorem Ipsum
+                    <span className="number_gradiant ff_space_mono fw-bold fs_48">
+                      {" "}
+                      09
+                    </span>
+                    Lorem Ipsum
                   </h2>
                   <h3 className=" ff_source_pro fw-bolder fs_40 text-white">
                     Lorem Ipsum dolor sit amet
@@ -233,7 +269,11 @@ function Roadmap() {
                   <h2 className=" ff_ubuntu fw-bold fs_48 h1_gradient mb-4 underline_roadmap2 position-relative">
                     {" "}
                     <span className="oval2 position-absolute"></span>
-                    10 Lorem Ipsum
+                    Lorem Ipsum
+                    <span className="number_gradiant ff_space_mono fw-bold fs_48">
+                      {" "}
+                      10
+                    </span>
                   </h2>
                   <h3 className=" ff_source_pro fw-bolder fs_40 text-white">
                     Lorem Ipsum dolor sit amet

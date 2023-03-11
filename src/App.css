@@ -130,8 +130,8 @@ label span:nth-child(2) {
   background: linear-gradient(
     150.47deg,
     rgba(255, 255, 255, 1.73) 12.39%,
-    rgba(253, 0, 243) 48.48%,
-    rgba(34, 162, 255) 64.08%,
+    rgba(253, 0, 245, 0.615) 48.48%,
+    rgba(34, 163, 255, 0.493) 64.08%,
     rgba(255, 255, 255) 76.52%
   );
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
@@ -344,7 +344,7 @@ h3 {
 }
 
 .rarity_component {
-  width: 246.01px;
+  width: 225.01px;
   background: linear-gradient(
     107.21deg,
     rgba(255, 255, 255, 0.26) 2.84%,
@@ -360,7 +360,7 @@ h3 {
   color: rgb(255, 255, 255);
 }
 .rarity_component:after {
-  width: 246.01px;
+  width: 225.01px;
   content: "";
   position: absolute;
   inset: 0;
@@ -482,7 +482,7 @@ h3 {
   position: absolute;
   left: -10px;
   background: linear-gradient(
-    to left,
+    to right,
     rgba(79, 181, 255, 0.85) 13.85%,
     rgba(247, 43, 237, 0.419) 70.98%,
     transparent
@@ -517,7 +517,7 @@ h3 {
 .underline_roadmap2::after {
   content: "";
   position: absolute;
-  left: -10px;
+  left: 0px;
   background: linear-gradient(
     to left,
     rgba(79, 181, 255, 0.85) 13.85%,
@@ -540,6 +540,21 @@ h3 {
   bottom: -73%;
   z-index: 1;
   animation: box2 3s ease-in-out 0s infinite reverse;
+}
+.number_gradiant {
+  background: linear-gradient(
+    106.8deg,
+    rgba(255, 255, 255, 0.93) 24.1%,
+    rgba(255, 255, 255, 0.34) 73.23%
+  );
+  text-shadow: 0px 5.25373px 5.25373px rgba(0, 0, 0, 0.25),
+    0px 5.25373px 31.5224px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(26.2687px);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-text-stroke: 1px #8900ab80;
+  -webkit-text-fill-color: transparent;
 }
 
 /* Faq */
@@ -608,7 +623,7 @@ h3 {
   }
 }
 .btt_size {
-  width: 40px;
+  width: 80px;
 }
 .text_stroke:hover {
   -webkit-text-stroke-width: 0.5px;
@@ -652,12 +667,32 @@ article:hover .overlay {
   font-size: 14px !important;
   position: relative;
 }
+.btn_btn1 {
+  background: transparent !important;
+  font-family: "Fira Code" !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  position: relative;
+}
 
 .btn_btn:hover {
   background: transparent !important;
   transition: all 500ms ease-in-out !important;
 }
 .btn_btn:hover::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right, #fd00f3 11.95%, #22a2ff 93.94%);
+
+  mask: linear-gradient(red 0 0) content-box, linear-gradient(red 0 0);
+  mask-composite: xor;
+  padding: 5px;
+  border-radius: 0px;
+  pointer-events: none;
+  font-size: 14px;
+}
+.btn_btn1::after {
   content: "";
   position: absolute;
   inset: 0;
@@ -689,12 +724,21 @@ article:hover .overlay {
     bottom: -20%;
     z-index: 0;
   }
-  .box_circel {
+  .oval1 {
     height: 70px;
     width: 70px;
     background-size: contain;
     background-repeat: no-repeat;
-    left: -17%;
+    left: -15%;
+    bottom: -76%;
+    z-index: 1;
+  }
+  .oval2 {
+    height: 70px;
+    width: 70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    right: -14%;
     bottom: -76%;
     z-index: 1;
   }
@@ -729,6 +773,13 @@ article:hover .overlay {
       #22a2ff 6.42%,
       #f72bee 92.64%
     ) !important;
+    border-radius: 0px 15px 0 15px !important;
+    font-family: "Fira Code" !important;
+    font-weight: 500 !important;
+    font-size: 24px !important;
+  }
+  .btn_btn1 {
+    background: transparent !important;
     border-radius: 0px 15px 0 15px !important;
     font-family: "Fira Code" !important;
     font-weight: 500 !important;
@@ -804,17 +855,55 @@ article:hover .overlay {
     font-weight: 500 !important;
     font-size: 28px !important;
   }
+  .btn_btn1 {
+    border-radius: 0px 15px 0 15px !important;
+    font-family: "Fira Code" !important;
+    font-weight: 500 !important;
+    font-size: 28px !important;
+  }
   .col_border {
     border: 3.5px solid #ffffff;
   }
 }
 @media (min-width: 992px) {
+  .oval2 {
+    height: 70px;
+    width: 70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    right: -18%;
+    bottom: -76%;
+    z-index: 1;
+  }
+  .underline_roadmap2::after {
+    content: "";
+    position: absolute;
+    left: 6px;
+    background: linear-gradient(
+      to left,
+      rgba(79, 181, 255, 0.85) 13.85%,
+      rgba(247, 43, 237, 0.419) 70.98%,
+      transparent
+    );
+    border-radius: 8.73645px;
+    height: 4px;
+    width: 100%;
+    bottom: -20%;
+    animation: line2 5s ease-in-out 0s infinite reverse;
+  }
   .btn_btn {
     background: linear-gradient(
       90deg,
       #22a2ff 6.42%,
       #f72bee 92.64%
     ) !important;
+    border-radius: 0px 15px 0 15px !important;
+    font-family: "Fira Code" !important;
+    font-weight: 500 !important;
+    font-size: 25px !important;
+  }
+  .btn_btn1 {
+    background: transparent !important;
     border-radius: 0px 15px 0 15px !important;
     font-family: "Fira Code" !important;
     font-weight: 500 !important;
@@ -889,10 +978,23 @@ article:hover .overlay {
     font-weight: 500 !important;
     font-size: 33px !important;
   }
+  .btn_btn1 {
+    background: transparent !important;
+    border-radius: 0px 15px 0 15px !important;
+    font-family: "Fira Code" !important;
+    font-weight: 500 !important;
+    font-size: 33px !important;
+  }
 }
 @media (min-width: 1400px) {
   .container {
     max-width: 1710px !important;
+  }
+  .w_xxl_40 {
+    width: 40% !important;
+  }
+  .w_xxl_65 {
+    width: 65% !important;
   }
 }
 .random_card_bg:hover:after {
