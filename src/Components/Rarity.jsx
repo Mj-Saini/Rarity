@@ -84,7 +84,7 @@ function Rarity() {
             />
           </label>{" "}
           <div className="bottom_border d-block"></div>
-          <Row className=" justify-content-between ">
+          <Row className=" justify-content-between mx-2">
             {RandomCards.map((cards) => {
               return (
                 <div className="col-lg-3 col-sm-6 mt-5 px-0 px-xxl-5">
